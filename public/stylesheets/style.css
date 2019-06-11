@@ -163,4 +163,58 @@ tr {
 	position: absolute;
 	bottom: 0px;
 }
-
+.btn-success {
+	background-color: #ff1361;
+	border-color: #ff1361;
+	color: #303334;
+}
+.btn-success:hover {
+	color: #ff1361;
+	background-color: #303334;
+	border-color: #303334;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background-color: #ff1361;
+	border-color: #ff1361;
+}
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+	background-color: #ff1361;
+	border-color: #303334;
+	color: #303334;
+}
+.navbar-default .navbar-brand {
+	color: #ff1361;
+	background-image: url('../images/hanacoin_clear.png');
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: contain;
+}
+.navbar-default .navbar-brand:hover {
+	color: #ff1361;
+}
+.navbar-link {
+	color: #ff1361;
+}
+.navbar-link:hover {
+	color: #ff1361;
+}
+.container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    min-width: 100px;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	background-color: #ff1361;
+	border-color: #303334;
+	color: #303334;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+	background-color: #ff1361;
+	border-color: #303334;
+	color: #303334;
+}
+.label-danger {
+	background-color: #ff1361;
+}
+.alert-danger {
+	background-color: #ff1361;
+	border-color: #303334;
+}
