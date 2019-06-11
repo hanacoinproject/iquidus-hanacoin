@@ -1,4 +1,9 @@
-Iquidus Explorer - 1.6.1
+<p align="center">
+  <img src="https://www.hanacoin.com/images/logo/hanacoin_logo_clear.png" width="350" alt="Hanacoin Logo">
+</p>
+
+
+Hanacoin Iquidus Explorer - 1.6.1
 ================
 
 An open source block explorer written in node.js.
@@ -12,6 +17,7 @@ An open source block explorer written in node.js.
 *  [Florincoin](https://florincoin.info/info)
 *  [Maxcoin Explorer 1](https://explorer.maxcoinproject.net/)
 *  [Maxcoin Explorer 2](https://explorer2.maxcoinproject.net/)
+*  [Hanacoin Explorer](https://explorer.hanacoin.com)
 
 
 *note: If you would like your instance mentioned here contact me*
@@ -167,4 +173,3 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-# iquidis-hanacoin
