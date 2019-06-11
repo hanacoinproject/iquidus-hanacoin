@@ -115,7 +115,15 @@
     "high_flag": 5000
   },
 
-  // twitter, facebook, googleplus, youtube
+  
+  // Peers page settings
+  // ipstack_api_key: ipstack.com Geo IP. This is the replacement of http://freegeoip.net You need an API Key for the Requests 
+  "peers": {
+    "ipstack_api_key": "Your API Key" 
+  },
+
+
+// twitter, facebook, googleplus, youtube
   "twitter": "iquidus",
   "facebook": "yourfacebookpage",
   "googleplus": "yourgooglepluspage",
