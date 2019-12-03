@@ -133,6 +133,7 @@
     "cryptsy": "Cryptsy",
     "cryptopia": "Cryptopia",
     "ccex": "C-Cex",
+    "qbtc": "qbtc",
 
     // Heavy rewards view
     "heavy_title": "Reward/voting information",
