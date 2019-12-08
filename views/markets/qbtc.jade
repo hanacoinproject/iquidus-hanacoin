@@ -99,7 +99,7 @@ block market_view
                                     td
                                         =order.total
                                     td.hidden-xs
-                                        =(new Date(order.timestamp * 1000).toUTCString())
+                                        =(new Date(order.timestamp).toUTCString())
                             else
                                 tr.danger
                                     td.hidden-xs
@@ -111,5 +111,5 @@ block market_view
                                     td
                                         =order.total
                                     td.hidden-xs
-                                        =(new Date(order.timestamp * 1000).toUTCString())
+                                        =(new Date(order.timestamp).toUTCString())
             .footer-padding
