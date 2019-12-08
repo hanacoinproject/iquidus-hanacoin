@@ -10,7 +10,7 @@ body {
 
 .nav-search input {
 	width: 400px !important;
-	margin-right: 5px;	
+	margin-right: 5px;
 }
 
 .view_tx {
@@ -103,6 +103,7 @@ tr {
 	position: absolute;
 	bottom: 15px;
 	right: 15px;
+	display: none;
 }
 
 #lblBlockcount {
@@ -185,8 +186,8 @@ tr {
 .navbar-default .navbar-brand {
 	color: #ff1361;
 	background-image: url('../images/hanacoin_clear.png');
-	background-position: center; 
-	background-repeat: no-repeat; 
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: contain;
 }
 .navbar-default .navbar-brand:hover {
