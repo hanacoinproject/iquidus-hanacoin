@@ -89,7 +89,7 @@ block market_view
                     tbody
                         each order in marketdata.data.history
                             if order.ordertype == 'buy'
-                                tr.success
+                                tr
                                     td.hidden-xs
                                         =order.ordertype
                                     td
@@ -101,7 +101,7 @@ block market_view
                                     td.hidden-xs
                                         =(new Date(order.timestamp).toUTCString())
                             else
-                                tr.danger
+                                tr
                                     td.hidden-xs
                                         =order.ordertype
                                     td

@@ -167,7 +167,7 @@ tr {
 .btn-success {
 	background-color: #ff1361;
 	border-color: #ff1361;
-	color: #303334;
+	color: #ffffff;
 }
 .btn-success:hover {
 	color: #ff1361;
@@ -181,7 +181,7 @@ tr {
 .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
 	background-color: #ff1361;
 	border-color: #303334;
-	color: #303334;
+	color: #ffffff;
 }
 .navbar-default .navbar-brand {
 	color: #ff1361;
@@ -205,12 +205,12 @@ tr {
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
 	background-color: #ff1361;
 	border-color: #303334;
-	color: #303334;
+	color: #ffffff;
 }
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
 	background-color: #ff1361;
 	border-color: #303334;
-	color: #303334;
+	color: #ffffff;
 }
 .label-danger {
 	background-color: #ff1361;
@@ -218,4 +218,9 @@ tr {
 .alert-danger {
 	background-color: #ff1361;
 	border-color: #303334;
+}
+.table-hover>tbody>tr:hover {
+	background-color: #ff1361;
+	border-color: #303334;
+	color: #ffffff;
 }
