@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="https://www.hanacoin.com/images/logo/hanacoin_logo_clear.png" width="350" alt="Hanacoin Logo">
+  <img src="https://www.hanacoin.com/assets/images/logo/hanacoin_logo_clear.png" width="350" alt="Hanacoin Logo">
 </p>
 
 
-Hanacoin Iquidus Explorer - 1.6.1
+Hanacoin Iquidus Explorer - 1.7.2
 ================
 
 An open source block explorer written in node.js.
 
 ### See it in action
-
+*  [Hanacoin Explorer](https://explorer.hanacoin.com)
 *  [Deutsche eMark](http://b.emark.tk/)
 *  [Sphere](http://sphere.iquidus.io)
 *  [Vertcoin](http://explorer.vertcoin.info/)
@@ -17,8 +17,6 @@ An open source block explorer written in node.js.
 *  [Florincoin](https://florincoin.info/info)
 *  [Maxcoin Explorer 1](https://explorer.maxcoinproject.net/)
 *  [Maxcoin Explorer 2](https://explorer2.maxcoinproject.net/)
-*  [Hanacoin Explorer](https://explorer.hanacoin.com)
-
 
 *note: If you would like your instance mentioned here contact me*
 
@@ -34,7 +32,7 @@ Enter MongoDB cli:
 
     $ mongo
 
-Create databse:
+Create database:
 
     > use explorerdb
 
@@ -78,7 +76,8 @@ To stop the cluster you can use
 
 sync.js (located in scripts/) is used for updating the local databases. This script must be called from the explorers root directory.
 
-    Usage: node scripts/sync.js [database] [mode]
+    Usage: node scripts/sync.js [database] [mode] [block]
+    block is optional
 
     database: (required)
     index [mode] Main index: coin info/stats, transactions & addresses
@@ -88,6 +87,10 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
     update       Updates index from last sync to current block
     check        checks index for (and adds) any missing transactions/addresses
     reindex      Clears index then resyncs from genesis to current block
+    
+    block: (optional)
+    Block is the block you would like to start your sync from. It defaults to 1 unless defined.
+    Only available on database: index check or reindex only and is NOT available on update. 
 
     notes:
     * 'current block' is the latest created block when script is executed.
@@ -115,7 +118,7 @@ Iquidus Explorer is intended to be generic so it can be used with any wallet fol
 ### Donate
 
     BTC: 168hdKA3fkccPtkxnX8hBrsxNubvk4udJi
-    JBS: JZp9893FMmrm1681bDuJBU7c6w11kyEY7D
+    HANA: PMsFE3pttvgPyDVwVDJSQXfaYgqmXio8et
 
 ### Known Issues
 
